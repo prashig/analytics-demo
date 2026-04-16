@@ -18,6 +18,10 @@
 <script>
 function trackClick() {
 alert("Button clicked");
+gtag('event', 'button_click', {
+'event_category': 'engagement',
+'event_label': 'demo_button'
+});
 }
 </script>
 </body>
